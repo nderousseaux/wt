@@ -1,7 +1,7 @@
 # /bin/sh
 
 # Install the dependencies
-pip install -r requirements.txt
+/usr/bin/env pip3 install -r requirements.txt
 
 # Make the wt command executable
 chmod +x ./wt
